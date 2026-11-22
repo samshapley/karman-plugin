@@ -1,0 +1,15 @@
+{
+  "name": "karman-si",
+  "owner": {
+    "name": "Karman"
+  },
+  "description": "Karman: a monitor for small Solar System bodies whose motion gravity does not explain.",
+  "plugins": [
+    {
+      "name": "karman",
+      "source": "./plugin",
+      "description": "Query Karman's anomaly list, object evidence, validation and watch through its MCP server.",
+      "category": "research"
+    }
+  ]
+}

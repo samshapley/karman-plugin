@@ -1,0 +1,9 @@
+{
+  "name": "karman",
+  "displayName": "Karman",
+  "version": "0.1.0",
+  "description": "Ask Karman which small Solar System bodies move in ways gravity does not explain, why, and how sure it is. Read-only by default.",
+  "author": { "name": "Karman" },
+  "homepage": "https://karman.si",
+  "keywords": ["astronomy", "asteroids", "orbits", "anomaly-detection", "mcp"]
+}
