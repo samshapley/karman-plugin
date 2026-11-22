@@ -1,7 +1,7 @@
 ---
 name: karman
 description: Query Karman, a monitor for small Solar System bodies whose motion gravity does not explain (non-gravitational accelerations, interstellar visitors). Use when the user asks which asteroids or comets move anomalously, why an object got its label, how the evidence compares with JPL, what the watch has seen lately, or how the method was validated.
-version: 0.1.0
+version: 0.1.1
 homepage: https://karman.si
 metadata:
   openclaw:
@@ -26,7 +26,7 @@ cause. Its expected finds are dark comets, spent rocket stages and data errors.
 | The residuals behind a plot | `get_object_residuals` |
 | New findings (flagged here, gravity-only at JPL) | `list_new_candidates` |
 | How well it works | `get_validation`, `get_benchmark` |
-| Interstellar visitors and the always-on watch | `watch_status`, `latest_alerts`, `subscribe` (feed links for a filter; pull-based) |
+| Interstellar visitors and the watch (runs on demand) | `watch_status`, `latest_alerts`, `subscribe` (feed links for a filter; pull-based) |
 | How it works | `get_method` |
 
 The server is hosted at `https://karman.si/mcp` (MCP over HTTP, read-only, no account or key). The Claude Code
